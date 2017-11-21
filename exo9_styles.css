@@ -1,0 +1,36 @@
+.align-logos img{
+  width: 50px;
+  display: inline-block;
+  margin-top: 20%;
+}
+
+li{
+  list-style-type: none;
+}
+
+.main{
+
+  border: 1px solid black;
+}
+
+.Jordan{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.testimg{
+  float: left;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.testp{
+  width: 100%;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.align-logos{
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
