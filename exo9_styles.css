@@ -1,0 +1,21 @@
+.Kateryna {
+  margin: 0 auto;
+  width: 840px;
+  height: 200px;
+  background-color: lightgrey;
+
+}
+.Kateryna .myphoto {
+  float: left;
+}
+.Kateryna li {
+  display: inline-block;
+  float: right;
+}
+.Kateryna p {
+  width: 400px;
+
+}
+.Kateryna article {
+
+}
