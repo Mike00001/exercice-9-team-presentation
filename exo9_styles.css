@@ -2,3 +2,32 @@ body{
     width: 100%;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center
+}
+ul img{
+    width: 50px;
+}
+
+
+.pdp {
+    border: 3px solid grey;
+    
+}
+
+
+.Mike{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+article {
+    margin: 5%
+}
+
