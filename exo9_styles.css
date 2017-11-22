@@ -1,0 +1,56 @@
+.Kateryna {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  background-color: #EB8500;
+}
+
+.Kateryna .info {
+    
+}
+.Kateryna .myphoto {
+
+    border: 3px solid grey;
+
+}
+.Kateryna li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center
+}
+
+
+body{
+    width: 100%;
+    background-color: #808080;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center
+}
+ul img{
+    width: 50px;
+}
+
+
+.pdp {
+    border: 3px solid grey;
+
+}
+
+
+.Mike{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+article {
+    margin: 5%
+}
