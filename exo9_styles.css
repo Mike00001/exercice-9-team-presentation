@@ -33,6 +33,13 @@ ul img{
       align-items: center;
 }
 
+.Bernard{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
 article {
     margin: 5%
 }
