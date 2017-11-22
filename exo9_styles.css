@@ -1,36 +1,22 @@
 .align-logos img{
   width: 50px;
-  display: inline-block;
-  margin-top: 20%;
-}
 
-li{
-  list-style-type: none;
-}
 
-.main{
-
-  border: 1px solid black;
 }
 
 .Jordan{
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  display: flex;
 }
 
-.testimg{
-  float: left;
-  grid-column: 1;
-  grid-row: 1;
+article .alignLogos{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+
+
 }
 
 .testp{
-  width: 100%;
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.align-logos{
-  grid-template-columns: 1fr 1fr 1fr;
-
+  width: 90%;
 }
