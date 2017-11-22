@@ -1,12 +1,37 @@
+html {
+  background-color: white;
+}
+
+body{
+  width: 860px;
+  margin: 10px auto;
+  background-color: #808080;
+
+  /* box-shadow: 2px 3px 4px lightgrey;
+*/
+}
 .Kateryna {
+  font-family: Ubuntu, sans-serif;
   margin: 0 auto;
   width: 840px;
   height: 200px;
-  background-color: lightgrey;
+  background-color: #EB8500;
+
+}
+.Kateryna article {
+ display: flex;
+
+}
+.Kateryna .info {
+
 
 }
 .Kateryna .myphoto {
   float: left;
+
+  border-color: #808080;
+  padding: 20px;
+
 }
 .Kateryna li {
   display: inline-block;
@@ -14,8 +39,5 @@
 }
 .Kateryna p {
   width: 400px;
-
-}
-.Kateryna article {
 
 }
