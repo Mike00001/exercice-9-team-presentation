@@ -15,7 +15,7 @@ ul img{
 
 .pdp {
     border: 3px solid grey;
-    
+
 }
 
 
@@ -24,11 +24,15 @@ ul img{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
-    
+}
+
+.Jordan{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
 }
 
 article {
     margin: 5%
 }
-
