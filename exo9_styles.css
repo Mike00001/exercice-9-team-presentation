@@ -9,6 +9,7 @@ ul{
 }
 ul img{
     width: 50px;
+    margin: 20px;
 }
 
 
@@ -20,7 +21,7 @@ ul img{
 
 .Mike{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
 
@@ -33,7 +34,6 @@ article {
 
 .Jordan{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
