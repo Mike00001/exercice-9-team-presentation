@@ -15,7 +15,8 @@ ul img{
 
 .pdp {
     border: 3px solid grey;
-
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -38,6 +39,12 @@ ul img{
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+}
+.Kateryna{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
 }
 
 article {
