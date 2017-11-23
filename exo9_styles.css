@@ -1,7 +1,35 @@
+.Kateryna {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  background-color: #EB8500;
+}
+
+.Kateryna .info {
+    
+}
+.Kateryna .myphoto {
+
+    border: 3px solid grey;
+
+}
+.Kateryna li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center
+}
+
+
 body{
     width: 100%;
+
     font-family: Futura, sans-serif;
     text-align: center;
+
+
+    background-color: #808080;
 
 }
 
@@ -29,6 +57,7 @@ header {
  }*/
 .pdp {
     border: 3px solid grey;
+
     width: 150px;
     height: 150px;
 }
@@ -38,12 +67,14 @@ header {
       justify-content: space-around;
       align-items: center;
       background-color: #FFAA00;
+
 }
 .Mike{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+
     background-color: #419A1C;
 }
 .Kateryna{
@@ -52,6 +83,7 @@ header {
       justify-content: space-around;
       align-items: center;
       background-color: #EB8500;
+r
 }
 .Bernard{
     display: flex;
