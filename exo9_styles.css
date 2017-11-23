@@ -1,39 +1,99 @@
+.Kateryna {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  background-color: #EB8500;
+}
+
+.Kateryna .info {
+
+}
+.Kateryna .myphoto {
+
+    border: 3px solid grey;
+
+}
+.Kateryna li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center
+}
+
+
 body{
     width: 100%;
+
+    font-family: Futura, sans-serif;
+    text-align: center;
+
+
+    background-color: #808080;
+
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 ul img{
     width: 50px;
     margin: 20px;
 }
+li {
+  margin: 5px;
 
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
+}
+ /*a {
+   text-decoration: none;
+ }*/
 .pdp {
     border: 3px solid grey;
 
+    width: 150px;
+    height: 150px;
 }
+.Jordan{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #FFAA00;
 
-
+}
 .Mike{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
 
-
+    background-color: #419A1C;
 }
+.Kateryna{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #EB8500;
+r
+}
+.Bernard{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #808000;
+}
+
 
 article {
     margin: 5%
-}
-
-.Jordan{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
