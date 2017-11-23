@@ -1,65 +1,43 @@
-.Kateryna {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  font-family: Ubuntu, sans-serif;
-  background-color: #EB8500;
-}
-
-.Kateryna .info {
-
-}
-.Kateryna .myphoto {
-
-    border: 3px solid grey;
-
-}
-.Kateryna li {
-  list-style-type: none;
-  display: flex;
-  justify-content: center
-}
-
 
 body{
     width: 100%;
-
-    font-family: Futura, sans-serif;
+    font-family: Ubuntu, sans-serif;
     text-align: center;
-
-
     background-color: lightgrey;
-
 }
-
 ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
+
 ul img{
     width: 50px;
-    margin: 20px;
+    margin: 10px;
 }
 li {
-  margin: 5px;
-
+    margin: 5px;
 }
 header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
- /*a {
-   text-decoration: none;
- }*/
+ a {
+   color: blue;
+ }
+ a:hover {
+   color: green;
+ }
 .pdp {
     border: 3px solid grey;
-
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+}
+.jmkb {
+    background-color: white;
+    width: 250px;
+    height: 250px;
 }
 .Jordan{
       display: flex;
@@ -67,25 +45,27 @@ header {
       justify-content: space-around;
       align-items: center;
       background-color: #FFAA00;
-
+      text-align: left;
 }
 .Mike{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-
+    text-align: left;
     background-color: #419A1C;
 }
 .Kateryna{
       display: flex;
       flex-direction: row;
+      text-align: left;
       justify-content: space-around;
       align-items: center;
       background-color: #EB8500;
-r
 }
+
 .Bernard{
+    text-align: left;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -93,7 +73,16 @@ r
     background-color: #808000;
 }
 
-
 article {
-    margin: 5%
+    margin: 30px;
+}
+section article ul {
+    width: 150px;
+    margin: 10px;
+}
+
+footer img {
+  position: sticky;
+  width: auto;
+  height: 400px;
 }
