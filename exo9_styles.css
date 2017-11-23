@@ -1,51 +1,66 @@
 body{
     width: 100%;
+    font-family: Futura, sans-serif;
+    text-align: center;
+
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 ul img{
     width: 50px;
     margin: 20px;
 }
+li {
+  margin: 5px;
 
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
+}
+ /*a {
+   text-decoration: none;
+ }*/
 .pdp {
     border: 3px solid grey;
     width: 150px;
     height: 150px;
 }
-
-
-.Mike{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .Jordan{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
+      background-color: #FFAA00;
 }
-
-.Bernard{
+.Mike{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    background-color: #419A1C;
 }
 .Kateryna{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
+      background-color: #EB8500;
 }
+.Bernard{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #808000;
+}
+
 
 article {
     margin: 5%
